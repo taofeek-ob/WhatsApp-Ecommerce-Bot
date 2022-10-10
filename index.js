@@ -32,7 +32,7 @@ router.get("/meta_wa_callbackurl", (req, res) => {
   }
 });
 
-const EcommerceStore = require("./../utils/ecommerce_store.js");
+const EcommerceStore = require("./utils/ecommerce_store.js");
 let Store = new EcommerceStore();
 const CustomerSession = new Map();
 
